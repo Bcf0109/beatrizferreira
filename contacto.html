@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beatriz Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1><a style="background-color: #9be6dc; color: blueviolet;" href="base.html">Minha página pessoal</a></h1>
+    </header>
+    <nav class="container menu">
+        <ul>
+            <li><a href="sobremim.html">Quem sou eu?</a></li>
+            <li><a href="formacao.html">Minha Formação</a></li>
+            <li><a href="portifolio.html">Portifólio</a></li>      
+            <li><a href="contacto.html">Contacto</a></li>  
+        </ul>
+    </nav>
+    <section class="principal">
+        <h2>Quer entrar em contacto comigo?</h2>
+        <h3>Preencha o formulário abaixo</h3>
+        <form style="max-width: 50%;" class="container" action="" method="">
+        <label style="font-weight: bold;"for="Nome">Nome:</label><input type="text" id="nome" required>
+        <label style="font-weight: bold;"for="Email">Email:</label><input placeholder="example@email.com" type="email" id="email">
+        <label style="font-weight: bold;"for="Telefone">Telefone:</label><input type="number" id="tlf"></textarea>
+        <label style="font-weight: bold;"for="Mensagem">Mensagem:</label><textarea placeholder="Escreva aqui o que deseja enviar" id="mensagem" required></textarea>
+        <button class="button">Enviar!</button>
+        </form>
+    </section>
+</body>
+</html>
